@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Signup from "./Signup";
+import Body from "./Body";
 
 
 const AppLayout = () => {
 
-    return (<div className="w-24 m-10 p-2">
-        Hello world
-    </div>)
+    return (
+        <Body></Body>
+    )
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
