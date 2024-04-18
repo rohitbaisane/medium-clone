@@ -6,7 +6,6 @@ mongoose.connect(`mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@cluster0.p3y
     .then(() => {
         console.log('database connection successfull');
     }).catch((err) => {
-        console.log(err);
         console.log('database connection error');
     });
 
